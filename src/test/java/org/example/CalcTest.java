@@ -10,5 +10,9 @@ public class CalcTest {
     void testAddition() {
         assertEquals(4, c.add(2,2));
     }
+    @Test
+    void testSubtraction() {
+    	assertEquals(10, c.subtract(12, 2));
+    }
 
 }
