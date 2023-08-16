@@ -1,0 +1,7 @@
+name: Run Maven Build Tests
+on: [push]
+jobs:
+  run-clean-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: mvn clean test
